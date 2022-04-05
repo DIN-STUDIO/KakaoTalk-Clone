@@ -5,23 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to KakaoTalk</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <nav>
-        <span class="status-bar">
-            <span class="status-bar__col1">iPhone</span>
-            <i class="fa-solid fa-wifi"></i>
-        </span>
-        <span class="status-bar">
-            <span class="status-bar__col2">8:12PM</span>
-        </span>
-        <span class="status-bar">
-            <!-- <i class="fa-brands fa-bluetooth-b"></i> -->
-            <span class="status-bar__col3">100%</span>
-            <i class="fa-solid fa-battery-full"></i>
-            <i class="fa-solid fa-bolt"></i>
-        </span>
-    </nav>
+    <div class="status-bar">
+        <div class="status-bar__col">
+            <span class="status-bar__phone">iPhone</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__time">8:12PM</span>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__battery">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="header-welcome">
+        <h1 class="header-welcome__title">Welcome to KakaoTalk</h1>
+        <p class="header-welcome__paragraph">If you have a Kakao Account,</p>
+        <p class="header-welcome__paragraph">log in with your email or phone number.</p>   
+    </header>
+    
+    <form class="login-form">
+        <input class="login-form__id" type="text" placeholder="Email or phone number"/>
+        <input class="login-form__password" type="text" placeholder="Password"/>
+        <input class="login-form__login" type="submit" value="Log In">
+        <input class="login-form__signup" type="submit" value="Sign Up">
+        <!-- <button>Log In</button>
+        <button>Sign Up</button> -->
+    </form>
+
+    <a href="#">Find Kakao Account or Password</a>
 
     <script src="https://kit.fontawesome.com/6c450f5942.js" crossorigin="anonymous"></script>
 </body>
