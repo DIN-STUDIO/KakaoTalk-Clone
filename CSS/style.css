@@ -1,34 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('reset.css');
+@import url('status-bar.css');
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* .status-bar__phone:first-child span{
-    margin-right: 0.2rem;
-} */
-
-.status-bar {
+.header-welcome {
+    margin: 4rem 0rem;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    /* text-align: center; */
 }
 
-.status-bar__col {
-    width: 33%;
-    display: flex;
-    align-items: center;
+.header-welcome__title {
+    font-weight: bold;
+    font-size: 28px;
+    margin: 2rem;
 }
 
-.status-bar__col:nth-child(2) {
-    justify-content: center;
+.header-welcome__paragraph {
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.6;
+    margin: 0.1rem;
 }
-
-.status-bar__col:nth-child(3) {
-    justify-content: flex-end;
-}
-
-
-
-/* .status-bar__col {
-    display: 33%;    
-} */
