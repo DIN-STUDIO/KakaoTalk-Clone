@@ -11,14 +11,14 @@
     align-items: center;
 }
 
+div span,i {
+    margin-right: 0.2rem;
+}
+
 .status-bar__col:nth-child(2) {
     justify-content: center;
 }
 
 .status-bar__col:nth-child(3) {
     justify-content: flex-end;
-}
-
-div span,i {
-    margin-right: 0.2rem;
 }

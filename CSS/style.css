@@ -2,25 +2,5 @@
 @import url('reset.css');
 @import url('status-bar.css');
 @import url('header-welcome.css');
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    margin: 70px 25px;
-    /* color: rgba(0, 0, 0, 0.3); */
-}
-
-.login-form input {
-    border: none;
-    margin-bottom: 20px;
-    font-size: 21px;
-    padding: 25px 10px 15px;
-}
-
-.login-form input:focus {
-    outline: none;
-}
-
-.login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.5);
-}
+@import url('variables.css');
+@import url('login-form.css');
