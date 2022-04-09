@@ -26,7 +26,7 @@
     margin-top: 20px;
 }
 
-.login-form input:not([type="text"]) {  /* submit part */
+.login-form input:not([type="text"], [type="password"]) {  /* submit part */
     border-radius: 7px;
     padding: 15px 10px 15px 0px;
     border: none;

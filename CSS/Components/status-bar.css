@@ -3,6 +3,12 @@
     justify-content: center;
     margin: 7px;
     font-weight: bold;
+    font-size: large;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    top: 0;
+    right: -9px;
 }
 
 .status-bar__col {
