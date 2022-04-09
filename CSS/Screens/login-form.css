@@ -1,0 +1,57 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 25px;
+}
+
+.login-form input {
+    margin-bottom: 20px;
+    font-size: 21px;
+    padding: 25px 10px 15px 0px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    transition: border-bottom 0.5s ease-in-out;
+} 
+
+.login-form input:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+
+.login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.login-form__login {
+    margin-top: 20px;
+}
+
+.login-form input:not([type="text"]) {  /* submit part */
+    border-radius: 7px;
+    padding: 15px 10px 15px 0px;
+    border: none;
+    background-color: var(--kakao-yellow);
+    cursor: pointer;
+}
+
+.login-form a {
+    margin-top: 8px;
+    font-weight: bold;
+    opacity: 0.9;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;    /*inherit는 부모로부터 값을 상속받음*/
+}
+/* 
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    transition: border-bottom 0.5s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+}
+*/
+
