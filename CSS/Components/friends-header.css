@@ -3,14 +3,15 @@
 
 .friends-header {
     display: flex;
-    padding: 60px 25px 20px 25px;
+    /* padding: 60px 25px 20px 25px; */
+    padding: 60px var(--component-padding) 20px;
     justify-content: space-between;
     align-items: center;
 }
 
 .friends-header__title {
     font-size: 32px;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .friends-header__menu {

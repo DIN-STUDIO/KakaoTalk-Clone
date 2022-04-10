@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 @import "reset.css";
 @import "variables.css";
 
@@ -11,7 +11,12 @@
 @import "Screens/header-welcome.css";
 @import "Screens/login-form.css";
 @import "Screens/friends-display.css";
+@import "Screens/friends-list.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+
+.main-screen {
+    padding: 0px var(--component-padding);
 }
