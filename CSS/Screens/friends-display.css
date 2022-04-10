@@ -1,0 +1,18 @@
+#friends-names-display-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 15px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#friends-names-display-info i {
+    opacity: 0.15;
+    margin: 0px 10px;
+}
+
+.friends-display {
+    opacity: 0.75;
+}

@@ -1,0 +1,24 @@
+/* 위 | 오른쪽 | 아래 | 왼쪽 */
+/* 위 | 가로방향 | 아래 */
+
+.friends-header {
+    display: flex;
+    padding: 60px 25px 20px 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friends-header__title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.friends-header__menu {
+    display: flex;
+    transform: scale(1.1);
+    opacity: 0.75;
+}
+
+.friends-header__menu__btn {
+    margin-left: 25px;
+}

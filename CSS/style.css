@@ -5,10 +5,12 @@
 /* Components */
 @import "Components/status-bar.css";
 @import "Components/nav-bar.css";
+@import "Components/friends-header.css";
 
 /* Screens */
 @import "Screens/header-welcome.css";
 @import "Screens/login-form.css";
+@import "Screens/friends-display.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
