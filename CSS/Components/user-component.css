@@ -28,18 +28,19 @@
 }
 
 .user-component__column__text {
-    text-align: start;
-    margin: 0px 10px;
+    /*text-align: start;*/
+    margin: 0px 20px;
 }
 
 .user-component__column__title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 5px;
+    padding: 5px 0px;
+    opacity: 0.8;
 }
 
 .user-component__column__title--xs {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 500;
 }
 
@@ -47,5 +48,5 @@
     font-size: 18px;
     font-weight: 600;
     opacity: 0.5;
-    margin-bottom: 5px;
+    padding: 5px 0px;
 }

@@ -18,8 +18,13 @@
     display: flex;
     transform: scale(1.1);
     opacity: 0.75;
+    align-items: center;
 }
 
 .friends-header__menu__btn {
     margin-left: 25px;
+}
+
+.fa-comment-plus {
+    transform: scale(0.87);
 }

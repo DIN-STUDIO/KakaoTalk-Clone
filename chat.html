@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chats</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__col">
+            <span class="status-bar__phone">iPhone</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__time">8:12 PM</span>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__battery">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="friends-header">
+        <h1 class="friends-header__title">Chats</h1>
+        <ul class="friends-header__menu">
+            <li class="friends-header__menu__btn">
+                <a class="friends-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-magnifying-glass fa-xl"></i>
+                </a>
+            </li>
+            <li class="friends-header__menu__btn">
+                <a class="friends-header__menu__btn__link" href="#">
+                    <i class="fa-light fa-comment-plus fa-2x"></i>
+                </a>
+            </li>
+            <li class="friends-header__menu__btn">
+                <a class="friends-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-music fa-xl"></i>
+                </a>
+            </li>
+            <li class="friends-header__menu__btn">
+                <a class="friends-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-gear fa-xl"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    
+    <!-- Main Screen -->
+    <main class="main-screen">
+        <!-- My Profile -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <div class="user-component__column__profile">
+                    <img class="user-component__column__profile__photo user-component__column__profile__photo--xl" src="Img/perfect.jpeg" />
+                </div>   
+                <div class="user-component__column__text">
+                    <h4 class="user-component__column__title">KyuRi</h4>
+                    <h6 class="user-component__column__subtitle">Do you want to go see cherry blossom?</h6>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chat.html">
+                    <span class="nav__notify">1</span>
+                    <i class="fa-solid fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-regular fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis__notify"></span>
+                    <i class="fa-light fa-ellipsis-stroke fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/00e276d6a6.js" crossorigin="anonymous"></script>
+</body>
+</html>
