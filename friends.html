@@ -50,6 +50,7 @@
         <i class="fa-solid fa-chevron-right fa-xs"></i>
     </a>
     
+    <!-- Main Screen -->
     <main class="main-screen">
         <!-- My Profile -->
         <div class="user-component">
@@ -63,44 +64,50 @@
                 </div>
             </div>
         </div>
-
-        <!-- Division Line, Birthday Milestone -->
-        <div class="user-component">
-            <div class="user-component__column user-component__column--birth">
-                <span class="user-component__birthday">Friend's Birthday</span>
-                <button class="user-component__birthday-btn">
+    
+        <!-- Division Line, Birthday Milestone --> 
+        <div class="birthday-milestone">
+            <div class="friends-screen__birthday__column">
+                <div class="friends-screen__birthday__header">
+                    <span class="friends-screen__birthday__hide__header">Friend's Birthday</span>
+                </div>
+            </div>
+            <div class="friends-screen__birthday__column">
+                <button class="friends-screen__birthday__hide__btn">
                     <i class="fa-solid fa-chevron-up"></i>
                 </button>
             </div>
-            <div class="user-component__column">
-
-            </div>
         </div>
 
-        <!-- Friend's Birthday List -->
-        <div class="user-component">
-            <div class="user-component__column">
-                <div class="user-component__column__profile">
-                    <img class="user-component__column__profile__photo user-component__column__profile__photo--xs" src="Img/cake.png" />
-                </div>   
-                <div class="user-component__column__text">
-                    <h4 class="user-component__column__title user-component__column__title--xs">Check out your friend's birthday!</h4>
+        <!-- Friends Screen -->
+        <main class="friends-screen">
+            <!-- Friend's Birthday List -->
+            
+            <div class="user-component">
+                <div class="user-component__column">
+                    <div class="user-component__column__profile">
+                        <img class="user-component__column__profile__photo user-component__column__profile__photo--xs" src="Img/cake.png" />
+                    </div>   
+                    <div class="user-component__column__text">
+                        <h4 class="user-component__column__title user-component__column__title--xs">Check out your friend's birthday!</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span class="user-component__birth-num">2</span>
+                    <button class="user-component__birth-num__btn">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
-            <div class="user-component__column">
-                <span class="user-component__birth-num">2</span>
-                <button class="user-component__birth-num__btn">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
-            </div>
-        </div>
+        </main>
     </main>
+    
     
 
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="#">
+                <a class="nav__link" href="friends.html">
                     <i class="fa-regular fa-user fa-2x"></i>
                 </a>
             </li>
