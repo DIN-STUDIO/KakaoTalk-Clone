@@ -16,24 +16,19 @@
 }
 
 .nav__notify {
-    display: flex;
     justify-content: center;
     align-items: center;
-    background-color: tomato;
     width: 24px;
     height: 24px;
     border-radius: 12px;
-    color: white;
     position: absolute;
     left: 20px;
     bottom: 15px;
 }
 
 .nav__ellipsis__notify {
-    background-color: tomato;
     width: 6px;
     height: 6px;
-    display: flex;
     border-radius: 3px;
     position: absolute;
     right: -2px;

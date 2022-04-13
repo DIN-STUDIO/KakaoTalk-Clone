@@ -1,0 +1,30 @@
+/* 위 | 오른쪽 | 아래 | 왼쪽 */
+/* 위 | 가로방향 | 아래 */
+
+.screen-header {
+    display: flex;
+    /* padding: 60px 25px 20px 25px; */
+    padding: 60px var(--component-padding) 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.screen-header__menu {
+    display: flex;
+    transform: scale(1.1);
+    opacity: 0.75;
+    align-items: center;
+}
+
+.screen-header__menu__btn {
+    margin-left: 25px;
+}
+
+.fa-comment-plus {
+    transform: scale(0.87);
+}

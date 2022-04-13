@@ -5,8 +5,9 @@
 /* Components */
 @import "Components/status-bar.css";
 @import "Components/nav-bar.css";
-@import "Components/friends-header.css";
+@import "Components/screen-header.css";
 @import "Components/user-component.css";
+@import "Components/notify-number.css";
 
 /* Screens */
 @import "Screens/header-welcome.css";
@@ -16,6 +17,11 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    /* color: #2e363e; */
+}
+
+header > h1 {
+    color: #2e363e;
 }
 
 .main-screen {
