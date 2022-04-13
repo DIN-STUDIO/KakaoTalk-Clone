@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__col">
+            <span class="status-bar__phone">iPhone</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__time">8:12 PM</span>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__battery">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <ul class="screen-header__menu">
+            <li class="screen-header__menu__btn">
+                <a class="screen-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-magnifying-glass fa-xl"></i>
+                </a>
+            </li>
+            <li class="screen-header__menu__btn">
+                <a class="screen-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-gear fa-xl"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    
+    <!-- Main Screen -->
+    <main class="main-screen">
+        <div class="find-icons">
+            <div class="find-icons__icon">
+                <i class="fa-light fa-expand fa-3x"></i>
+                <span class="find-icons__qr-code">QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-light fa-address-book fa-flip-horizontal fa-3x"></i>
+                <span class="find-icons__add-by-contacts">Add by</span>
+                <span class="find-icons__add-by-contacts">Contracts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-light fa-face-smile-plus fa-3x"></i>
+                <span class="find-icons__add-by-id">Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fa-light fa-envelope fa-3x"></i>
+                <span class="find-icons__invite">Invite</span>
+            </div>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chat.html">
+                    <span class="nav__notify notify-number">1</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis__notify notify-number"></span>
+                    <i class="fa-light fa-ellipsis-stroke fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/00e276d6a6.js" crossorigin="anonymous"></script>
+</body>
+</html>

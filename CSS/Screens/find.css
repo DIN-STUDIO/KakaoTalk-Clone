@@ -1,0 +1,28 @@
+.find-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icons__icon {
+    /* width: 10%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10px 10px;
+}
+
+.find-icons__icon * {
+    padding: 10px 0px;
+    opacity: 0.9;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.find-icons__add-by-contacts {
+    padding: 0px;
+}
+
+.fa-face-smile-plus {
+    padding-right: -20px;
+}

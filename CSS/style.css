@@ -14,6 +14,7 @@
 @import "Screens/login-form.css";
 @import "Screens/friends-display.css";
 @import "Screens/friends-list.css";
+@import "Screens/find.css";
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -21,7 +22,7 @@ body {
 }
 
 header > h1 {
-    color: #2e363e;
+    color: #2a3138;
 }
 
 .main-screen {
