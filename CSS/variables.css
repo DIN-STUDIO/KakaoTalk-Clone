@@ -1,4 +1,12 @@
 :root {
+    /* Color */
     --kakao-yellow: #fae100;
+    --dark-gray: #2e363e;
+    --light-gray: rgba(0, 0, 0, 0.4);
+
+    /* Padding */
     --component-padding: 25px;
+    
+    /* Border */
+    --main-border: 1px solid rgba(0, 0, 0, 0.1);
 }

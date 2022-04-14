@@ -25,6 +25,15 @@
     margin-left: 25px;
 }
 
+.screen-header__cog-notify {
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: -3px;
+}
+
 .fa-comment-plus {
     transform: scale(0.87);
 }
