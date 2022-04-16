@@ -4,11 +4,19 @@
     /* width: 100%; */
 }
 
+/* .user-component:hover {
+    cursor: pointer;
+} */
+
 .user-component__column {
     /* width: 88%; */
     display: flex;
     align-items: center;
     padding: 10px 0px;
+}
+
+.user-component__column:hover {
+    cursor: pointer;
 }
 /* 
 .user-component__column:last-child {
