@@ -1,0 +1,11 @@
+.more-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.more-icons__icon {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}

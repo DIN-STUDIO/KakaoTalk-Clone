@@ -16,6 +16,7 @@
 @import "Screens/friends-list.css";
 @import "Screens/find.css";
 @import "Screens/find__open-chat.css";
+@import "Screens/more-icons.css";
 
 body {
     font-family: 'Open Sans', sans-serif;

@@ -1,7 +1,7 @@
 .user-component {
     display: flex;
     justify-content: space-between;
-    /* width: 100%; */
+    width: 100%;
 }
 
 /* .user-component:hover {
@@ -13,6 +13,11 @@
     display: flex;
     align-items: center;
     padding: 10px 0px;
+}
+
+.user-component__subtitle {
+    display: flex;
+    align-items: baseline;
 }
 
 .user-component__column:hover {
@@ -88,4 +93,5 @@
     font-weight: 600;
     opacity: 0.5;
     padding: 5px 0px;
+    /* margin-right: 7px; */
 }

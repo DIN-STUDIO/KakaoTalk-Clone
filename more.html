@@ -1,1 +1,137 @@
-This is More.html
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__col">
+            <span class="status-bar__phone">iPhone</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__time">8:12 PM</span>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__battery">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <ul class="screen-header__menu">
+            <li class="screen-header__menu__btn">
+                <a class="screen-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-magnifying-glass fa-xl"></i>
+                </a>
+            </li>
+            <li class="screen-header__menu__btn">
+                <a class="screen-header__menu__btn__link" href="#">
+                    <i class="fa-regular fa-music fa-xl"></i>
+                </a>
+            </li>
+            <li class="screen-header__menu__btn">
+                <a class="screen-header__menu__btn__link" href="#">
+                    <span class="screen-header__cog-notify notify-number"></span>
+                    <i class="fa-regular fa-gear fa-xl"></i>
+                </a>
+            </li>
+        </ul>
+    </header>
+    
+    <!-- Main Screen -->
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <div class="user-component__column__profile">
+                    <img class="user-component__column__profile__photo user-component__column__profile__photo--xl" src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/kht1790-avatar.jpg" />
+                </div>   
+                <div class="user-component__column__text">
+                    <h4 class="user-component__column__title">효택</h4>
+                    <div class="user-component__subtitle">
+                        <h6 class="user-component__column__subtitle">+82-10-5476-1790</h6>
+                        <i class="fa-regular fa-circle-exclamation" style="color: tomato;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="user-component__column">
+                <i class="fa-light fa-message-lines fa-2x"></i>
+            </div>
+        </div>
+
+        <div class="more-icons">
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-calendar-check fa-3x"></i>
+                    <span>Calendar</span>
+                </div>
+            </a>
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-sd-card fa-3x"></i>
+                    <span>Talk Drive</span>
+                </div>
+            </a>
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-comment-smile fa-3x"></i>
+                    <span>Emoticons</span>
+                </div>
+            </a>
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-brush fa-flip-vertical fa-3x"></i>
+                    <span>Themes</span>
+                </div>
+            </a>
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-circle-k fa-3x"></i>
+                    <span>Account</span>
+                </div>
+            </a>
+            <a href="#" class="more-icons__btn">
+                <div class="more-icons__icon">
+                    <i class="fa-light fa-comments fa-3x"></i>
+                    <span>OpenChat</span>
+                </div>
+            </a>
+        </div>
+    </main>
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fa-regular fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chat.html">
+                    <span class="nav__notify notify-number">6</span>
+                    <i class="fa-regular fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fa-regular fa-magnifying-glass fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__ellipsis__notify notify-number"></span>
+                    <i class="fa-solid fa-ellipsis fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/00e276d6a6.js" crossorigin="anonymous"></script>
+</body>
+</html>
