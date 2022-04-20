@@ -7,5 +7,7 @@
 .more-icons__icon {
     display: flex;
     flex-direction: column;
-    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
 }
