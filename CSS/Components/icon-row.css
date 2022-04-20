@@ -1,0 +1,65 @@
+@media (min-width: 100px) {
+    .icon-row {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+    }
+
+    .icon-row__link {
+         width: 25%;
+    }
+}
+
+.icon-row__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 10px 10px;
+    position: relative;
+}
+
+/* .icon-row__icon > i {
+    padding: 14px 0px;
+    opacity: 0.9;
+}
+
+.icon-row__icon > span:not(.icon-row__add-by-contacts) {
+    padding: 14px 0px;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 600;
+} */
+
+
+
+.icon-row__icon * {
+    padding: 14px 0px;
+    opacity: 0.9;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.icon-row__add-by-contacts:nth-child(2) {
+    margin: 5px 0px;
+}
+
+.icon-row__add-by-contacts {
+    padding: 0px;
+}
+
+.icon-row__calendar, .icon-row__drive, .icon-row__emoticons, .icon-row__themes, .icon-row__account, .icon-row__openchat {
+    padding: 0px;
+    opacity: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.icon-row__drive-notify {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border-radius: 3px;   
+    bottom: 20px;
+    right: -3px;
+}

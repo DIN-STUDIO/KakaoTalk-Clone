@@ -15,6 +15,10 @@
     padding: 10px 0px;
 }
 
+.user-component__column > i {
+    opacity: 0.8;
+}
+
 .user-component__subtitle {
     display: flex;
     align-items: baseline;
@@ -93,5 +97,5 @@
     font-weight: 600;
     opacity: 0.5;
     padding: 5px 0px;
-    /* margin-right: 7px; */
+    margin-right: 7px;
 }
