@@ -5,10 +5,35 @@
     border-top: 1.3px solid rgba(0, 0, 0, 0.1); 
 }
 
+.suggestion__title {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 30px;
+}
+
 .suggestion__row {
     display: flex;
+    padding-top: 20px;
 }
 
 .suggestion__link {
     width: 25%;
 } 
+
+.suggestion__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.suggestion__btn img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 5px;
+}
+
+.suggestion__btn h6 {
+    font-weight: 600;
+    opacity: 0.5;
+}
