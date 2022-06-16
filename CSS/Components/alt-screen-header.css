@@ -1,0 +1,31 @@
+.alt-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px var(--component-padding) 20px;
+}
+
+.alt-header__column {
+    width: 33%;
+}
+
+.alt-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.alt-header__column:nth-child(3) {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alt-header__title {
+    font-size: 26px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.alt-header__column:nth-child(3) i {
+    margin-left: 20px;
+}
