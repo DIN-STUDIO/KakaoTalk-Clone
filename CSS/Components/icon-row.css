@@ -17,7 +17,7 @@
 
 .icon-row__link {
     width: 25%;
-    position: relative;
+    /* position: relative; */
 }
 
 .icon-row__icon {
@@ -29,10 +29,14 @@
 }
 
 .icon-row__icon * {
-    padding: 14px 0px;
+    padding: 12px 0px;
     opacity: 0.9;
     font-size: 18px;
     font-weight: 600;
+}
+
+.icon-row i {
+    position: relative;
 }
 
 .icon-row__add-by-contacts:nth-child(2) {
@@ -53,8 +57,9 @@
     position: absolute;
     width: 8px;
     height: 8px;
-    border-radius: 4px;   
-    bottom: 100px;
-    right: 30px;
+    border-radius: 4px; 
+    padding: 0px;  
+    bottom: 65px;
+    left: 45px;
     opacity: 0.8;
 }
