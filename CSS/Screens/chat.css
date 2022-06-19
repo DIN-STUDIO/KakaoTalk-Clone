@@ -1,3 +1,27 @@
 #chat-screen {
     background-color: #abc1d1;
+    height: 1100vh;
+}
+
+#chat-screen::-webkit-scrollbar {
+    display: none;
+}
+
+.chat-main {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    height: 1000vh;
+}
+
+.chat-main__timestamp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: #9dadb8;
+    color: white;
+    font-size: 14px;
 }

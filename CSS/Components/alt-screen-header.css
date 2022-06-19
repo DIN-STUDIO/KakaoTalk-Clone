@@ -3,6 +3,9 @@
     justify-content: center;
     align-items: center;
     padding: 40px var(--component-padding) 20px;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
 }
 
 .alt-header__column {
