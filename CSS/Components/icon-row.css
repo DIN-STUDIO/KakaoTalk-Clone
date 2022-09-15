@@ -13,11 +13,12 @@
 .icon-row {
     display: flex;
     flex-wrap: wrap;
+    opacity: 0.9;
 }
 
 .icon-row__link {
     width: 25%;
-    /* position: relative; */
+    position: relative;
 }
 
 .icon-row__icon {
@@ -33,10 +34,6 @@
     opacity: 0.9;
     font-size: 18px;
     font-weight: 600;
-}
-
-.icon-row i {
-    position: relative;
 }
 
 .icon-row__add-by-contacts:nth-child(2) {
@@ -59,7 +56,7 @@
     height: 8px;
     border-radius: 4px; 
     padding: 0px;  
-    bottom: 65px;
-    left: 45px;
+    top: 30px;
+    right: 135px;
     opacity: 0.8;
 }

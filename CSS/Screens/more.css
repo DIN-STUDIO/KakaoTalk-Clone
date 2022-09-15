@@ -1,3 +1,7 @@
+#more-screen {
+    height: 500vh;
+}
+
 .suggestion {
     display: flex;
     flex-direction: column;
