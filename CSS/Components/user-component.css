@@ -1,30 +1,34 @@
 .user-component {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
+    
+    /* 박스 모델 속성 */
     width: 100%;
 }
 
-/* .user-component:hover {
-    cursor: pointer;
-} */
-
 .user-component__column {
-    /* width: 88%; */
+    /* 레이아웃 속성 */
     display: flex;
     align-items: center;
+
+    /* 박스 모델 속성 */
     padding: 10px 0px;
 }
 
 .user-component__column > i {
+    /* 비주얼 속성 */
     opacity: 0.8;
 }
 
 .user-component__subtitle {
+    /* 레이아웃 속성 */
     display: flex;
     align-items: baseline;
 }
 
 .user-component__column:hover {
+    /* 기타 속성 */
     cursor: pointer;
 }
 /* 
@@ -38,64 +42,95 @@
 } */
 
 .user-component__chat-col {
+    /* 레이아웃 속성 */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .user-component__chat-time {
-    font-size: 15px;
+    /* 박스 모델 속성 */
     margin-bottom: 10px;
+
+    /* 비주얼 속성 */
     color: rgba(0, 0, 0, 0.4);
+
+    /* 텍스트 속성 */
+    font-size: 15px;
     font-weight: 600;
 }
 
 .user-component__chat-notify {
+    /* 레이아웃 속성 */
     justify-content: center;
     align-items: center;
+
+    /* 박스 모델 속성 */
     width: 28px;
     height: 28px;
+
+    /* 비주얼 속성 */
     border-radius: 14px;
 }
 
 .user-component__column__profile__photo {
+    /* 박스 모델 속성 */
     width: 70px;
     height: 70px;
+
+    /* 비주얼 속성 */
     border-radius: 37px;
 }
 
 .user-component__column__profile__photo--xl {
+    /* 박스 모델 속성 */
     width: 80px;
     height: 80px;
 }
 
 .user-component__column__profile__photo--xs {
+    /* 박스 모델 속성 */
     width: 60px;
     height: 60px;
+
+    /* 비주얼 속성 */
     border-radius: 27px;
 }
 
 .user-component__column__text {
+    /* 박스 모델 속성 */
     margin: 0px 20px;
 }
 
 .user-component__column__title {
+    /* 박스 모델 속성 */
+    padding: 5px 0px;
+
+    /* 비주얼 속성 */
+    opacity: 0.8;
+
+    /* 텍스트 속성 */
     font-size: 24px;
     font-weight: 700;
-    padding: 5px 0px;
-    opacity: 0.8;
 }
 
 .user-component__column__title--xs {
+    /* 텍스트 속성 */
     font-size: 22px;
     font-weight: 500;
 }
 
 .user-component__column__subtitle {
     /* 일정 메시지 너비가 넘어가면 메시지가 생략되도록 */
+
+    /* 박스 모델 속성 */
+    margin-right: 7px;
+    padding: 5px 0px;
+    
+    /* 비주얼 속성 */
+    opacity: 0.5;
+
+    /* 텍스트 속성 */
     font-size: 18px;
     font-weight: 600;
-    opacity: 0.5;
-    padding: 5px 0px;
-    margin-right: 7px;
 }

@@ -2,29 +2,39 @@
 /* 위 | 가로방향 | 아래 */
 
 .friends-header {
+    /* 레이아웃 속성 */
     display: flex;
-    /* padding: 60px 25px 20px 25px; */
-    padding: 60px var(--component-padding) 20px;
     justify-content: space-between;
     align-items: center;
+
+    /* 박스 모델 속성 */
+    padding: 60px var(--component-padding) 20px;
 }
 
 .friends-header__title {
+    /* 글자 속성 */
     font-size: 32px;
     font-weight: 700;
 }
 
 .friends-header__menu {
+    /* 레이아웃 속성 */
     display: flex;
-    transform: scale(1.1);
-    opacity: 0.75;
     align-items: center;
+
+    /* 비주얼 속성 */
+    opacity: 0.75;
+
+    /* 기타 속성 */
+    transform: scale(1.1);
 }
 
 .friends-header__menu__btn {
+    /* 박스 모델 속성 */
     margin-left: 25px;
 }
 
 .fa-comment-plus {
+    /* 기타 속성 */
     transform: scale(0.87);
 }

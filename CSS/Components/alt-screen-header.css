@@ -1,34 +1,44 @@
 .alt-header {
+    /* 레이아웃 속성 */
     display: flex;
+    position: fixed;
     justify-content: center;
     align-items: center;
-    padding: 40px var(--component-padding) 20px;
-    position: fixed;
-    width: 100vw;
     box-sizing: border-box;
+
+    /* 박스 모델 속성 */
+    width: 100vw;
+    padding: 40px var(--component-padding) 20px;
 }
 
 .alt-header__column {
+    /* 박스 모델 속성 */
     width: 33%;
 }
 
 .alt-header__column:nth-child(2) {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: center;
 }
 
 .alt-header__column:nth-child(3) {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: flex-end;
 }
 
 .alt-header__title {
-    font-size: 26px;
-    font-weight: 600;
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: center;
+
+    /* 글자 속성*/
+    font-size: 26px;
+    font-weight: 600;
 }
 
 .alt-header__column:nth-child(3) i {
+    /* 박스 모델 속성 */
     margin-left: 20px;
 }

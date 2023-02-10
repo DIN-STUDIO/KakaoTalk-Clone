@@ -16,14 +16,29 @@
 /* .user-component__column button, .user-component__column i {
     opacity: 0.5;
 } */
+
+#friends-screen {
+    /* 박스 모델 속성 */
+    height: 500vh;
+}
+
+.friends__main-screen {
+    /* 박스 모델 속성 */
+    padding: 0px var(--component-padding);
+}
+
 .birthday-milestone {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
+    
+    /* 박스 모델 속성 */
     margin-top: 10px;
     border-top: 1.2px solid rgba(0, 0, 0, 0.1);
 }
 
 .friends-screen {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
@@ -31,19 +46,53 @@
 
 .friends-screen__birthday__column {
     /* display: flex; */
+    
+    /* 박스 모델 속성 */
     padding: 14px 0px
 }
 
 .friends-screen__birthday__hide__header {
-    font-weight: 600;
+    /* 비주얼 속성 */
     opacity: 0.5;
+
+    /* 텍스트 속성 */
+    font-weight: 600;
 }
 
 .friends-screen__birthday__hide__btn, .user-component__birth-num, .user-component__birth-num__btn {
+    /* 박스 모델 속성 */
     border: none;
-    background-color: white;
-    cursor: pointer;
-    opacity: 0.4;
-    font-weight: 600;
     padding: 0px;
+    
+    /* 비주얼 속성 */
+    background-color: white;
+    opacity: 0.4;
+    
+    /* 텍스트 속성 */
+    font-weight: 600;
+
+    /* 기타 속성 */
+    cursor: pointer;
 }
+
+/* .splash-screen {
+    background-color: var(--kakao-yellow);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: SplashScreen 2s ease-in-out forwards;
+}
+
+@keyframes SplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+} */

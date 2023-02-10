@@ -31,5 +31,5 @@ header > h1 {
 }
 
 .main-screen {
-    padding: 0px var(--component-padding);
+    padding: 100px var(--component-padding);
 }

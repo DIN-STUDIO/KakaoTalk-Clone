@@ -1,21 +1,33 @@
 .header-welcome {
-    margin: 5rem 0rem;
+    /* 레이아웃 속성 */
     display: flex;
     flex-direction: column;
-    align-items: center; 
+    align-items: center;
+    
+    /* 박스 모델 속성 */
+    margin: 5rem 0rem;
+
     /* text-align: center; */
 }
 
 .header-welcome__title {
+    /* 박스 모델 속성 */
+    margin: 2rem;
+
+    /* 텍스트 속성 */
     font-weight: bold;
     font-size: 28px;
-    margin: 2rem;
 }
 
 .header-welcome__paragraph {
+    /* 박스 모델 속성 */
+    margin: 0.1rem;
+
+    /* 비주얼 속성 */
+    color: gray;
+
+    /* 텍스트 속성 */
     font-weight: bold;
     font-size: 20px;
     /* opacity: 0.6;  = color: grey; */
-    color: gray;
-    margin: 0.1rem;
 }

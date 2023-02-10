@@ -1,37 +1,58 @@
 .nav__list {
-    display: flex;
-    justify-content: space-between;
-    background-color: #f9f9fa;
-    padding: 20px 50px;
-    border-top: 1.5px solid rgba(0, 0, 0, 0.08);
+    /* 레이아웃 속성 */
     position: fixed;
     bottom: 0;
-    width: 100vw;
+    
+    display: flex;
+    justify-content: space-between;
     box-sizing: border-box;
+
+    /* 박스 모델 속성 */
+    width: 100vw;
+    padding: 20px 50px;
+
+    /* 비주얼 속성 */
+    background-color: #f9f9fa;
+    border-top: 1.5px solid rgba(0, 0, 0, 0.08);
 }
 
 .nav__link {
-    color: #2e363e;
+    /* 레이아웃 속성 */
     position: relative;
+
+    /* 비주얼 속성 */
+    color: #2e363e;
 }
 
 .nav__notify {
-    justify-content: center;
-    align-items: center;
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
-    position: absolute;
+    /* 레이아웃 속성 */
+    position: absolute;    
     left: 20px;
     bottom: 15px;
+    
+    /* 레이아웃 속성 */
+    justify-content: center;
+    align-items: center;
+    
+    /* 박스 모델 속성 */
+    width: 24px;
+    height: 24px;
+
+    /* 비주얼 속성 */
+    border-radius: 12px;
 }
 
 .nav__ellipsis__notify {
-    width: 6px;
-    height: 6px;
-    border-radius: 3px;
+    /* 레이아웃 속성 */
     position: absolute;
     right: -2px;
     top: -13px;
+
+    /* 박스 모델 속성 */
+    width: 6px;
+    height: 6px;
+
+    /* 비주얼 속성 */
+    border-radius: 3px;
     opacity: 0.9;
 }

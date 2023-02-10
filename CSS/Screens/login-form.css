@@ -1,46 +1,67 @@
 .login-form {
+    /* 레이아웃 속성 */
     display: flex;
     flex-direction: column;
+
+    /* 박스 모델 속성 */
     margin: 70px 25px;
 }
 
 .login-form input {
+    /* 박스 모델 속성 */
     margin-bottom: 20px;
-    font-size: 21px;
     padding: 25px 10px 15px 0px;
     border: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+
+    /* 텍스트 속성 */
+    font-size: 21px;    
+    
+    /* 기타 속성 */
     transition: border-bottom 0.5s ease-in-out;
 } 
 
 .login-form input:focus {
-    outline: none;
+    /* 박스 모델 속성 */
     border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+    outline: none;
 }
 
 .login-form input::placeholder {
+    /* 비주얼 속성 */
     color: rgba(0, 0, 0, 0.5);
 }
 
 .login-form__login {
+    /* 박스 모델 속성 */
     margin-top: 20px;
 }
 
 .login-form input:not([type="text"], [type="password"]) {  /* submit part */
+    /* 박스 모델 속성 */
     border-radius: 7px;
     padding: 15px 10px 15px 0px;
     border: none;
+
+    /* 비주얼 속성 */
     background-color: var(--kakao-yellow);
+
+    /* 기타 속성 */
     cursor: pointer;
 }
 
 .login-form a {
+    /* 박스 모델 속성 */
     margin-top: 8px;
-    font-weight: bold;
+
+    /* 비주얼 속성 */
     opacity: 0.9;
+    color: inherit;    /*inherit는 부모로부터 값을 상속받음*/
+
+    /* 텍스트 속성 */
+    font-weight: bold;
     text-align: center;
     text-decoration: none;
-    color: inherit;    /*inherit는 부모로부터 값을 상속받음*/
 }
 /* 
 input[type="text"] {

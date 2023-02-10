@@ -1,5 +1,8 @@
 .notify-number {
-    background-color: tomato;
+    /* 레이아웃 속성 */
     display: flex;
+
+    /* 비주얼 속성 */
     color: white;
+    background-color: tomato;
 }

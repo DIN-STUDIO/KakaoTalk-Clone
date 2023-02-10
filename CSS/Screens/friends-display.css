@@ -1,18 +1,30 @@
 #friends-names-display-info {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fafafa;
+
+    /* 박스 모델 속성 */
     padding: 15px 0px;
+    margin-top: 105px;
+
+    /* 비주얼 속성 */
+    background-color: #fafafaec;
+
+    /* 텍스트 속성 */
     font-size: 18px;
     font-weight: bold;
 }
 
 #friends-names-display-info i {
-    opacity: 0.15;
+    /* 박스 모델 속성 */
     margin: 0px 10px;
+
+    /* 비주얼 속성 */
+    opacity: 0.15;
 }
 
 .friends-display {
+    /* 비주얼 속성 */
     opacity: 0.75;
 }

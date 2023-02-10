@@ -11,52 +11,76 @@
     
 } */
 .icon-row {
+    /* 레이아웃 속성 */
     display: flex;
     flex-wrap: wrap;
+
+    /* 비주얼 속성 */
     opacity: 0.9;
 }
 
 .icon-row__link {
-    width: 25%;
+    /* 레이아웃 속성 */
     position: relative;
+
+    /* 박스 모델 속성 */
+    width: 25%;
 }
 
 .icon-row__icon {
+    /* 레이아웃 속성 */
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    
+    /* 박스 모델 속성 */
     padding: 25px 10px 10px;
 }
 
 .icon-row__icon * {
+    /* 박스 모델 속성 */
     padding: 12px 0px;
+
+    /* 비주얼 속성 */
     opacity: 0.9;
+
+    /* 텍스트 속성 */
     font-size: 18px;
     font-weight: 600;
 }
 
 .icon-row__add-by-contacts:nth-child(2) {
+    /* 박스 모델 속성 */
     margin: 5px 0px;
 }
 
 .icon-row__add-by-contacts {
+    /* 박스 모델 속성 */
     padding: 0px;
 }
 
 .icon-row__calendar, .icon-row__drive, .icon-row__emoticons, .icon-row__themes, .icon-row__pay, .icon-row__openchat {
+    /* 비주얼 속성 */
     opacity: 0.8;
+
+    /* 텍스트 속성 */
     font-size: 16px;
     font-weight: 500;
 }
 
 .icon-row__drive-notify {
+    /* 레이아웃 속성 */
     position: absolute;
-    width: 8px;
-    height: 8px;
-    border-radius: 4px; 
-    padding: 0px;  
     top: 30px;
     right: 135px;
+
+    /* 박스 모델 속성 */
+    width: 8px;
+    height: 8px;
+    padding: 0px;  
+
+    /* 비주얼 속성 */
+    border-radius: 4px; 
     opacity: 0.8;
 }

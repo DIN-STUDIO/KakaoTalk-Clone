@@ -1,116 +1,165 @@
 .open-chats__title {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    /* 박스 모델 속성 */
     margin-top: 20px;
 }
 
 .open-chats__room-title {
-    font-size: 18px;
+    /* 비주얼 속성 */
     opacity: 0.6;
+
+    /* 텍스트 속성 */
+    font-size: 18px;
     font-weight: 600;
 }
 .open-chats__title h6 {
+    /* 텍스트 속성 */
     font-size: 17px;
 }
 
 .open-chats__home {
+    /* 레이아웃 속성 */
     display: flex;
+
+    /* 비주얼 속성 */
     opacity: 0.6;
+
+    /* 텍스트 속성 */
     font-weight: 600;
     font-size: 17px;
 }
 
 .open-chats__home i {
+    /* 박스 모델 속성 */
     padding-left: 5px;
 }
 
 .open-chats__article {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
+    
+    /* 박스 모델 속성 */
     padding-top: 20px;
     padding-bottom: 8px;
+
+    /* 비주얼 속성 */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .open-chats__rooms {
+    /* 박스 모델 속성 */
     padding: 20px 0px;
 }
 
 .open-chats__rooms h2 {
+    /* 박스 모델 속성 */
     margin: 7px 0px;
 }
 
 .open-chats__rooms span {
+    /* 박스 모델 속성 */
     margin: 8px 0px;
 }
 
 .open-chats__rooms h2 {
-    text-transform: uppercase;
+    /* 비주얼 속성 */
+    opacity: 0.8;
+
+    /* 텍스트 속성 */
     font-size: 21px;
     font-weight: 500;
-    opacity: 0.8;
+    text-transform: uppercase;
 }
 
 .open-chats__hashtag {
-    text-transform: uppercase;
+    /* 비주얼 속성 */
+    opacity: 0.5;
+
+    /* 텍스트 속성 */
     font-size: 19px;
     font-weight: 500;
-    opacity: 0.5;
+    text-transform: uppercase;
 }
 
 .open-chats__members {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .open-chats__members *:not(img, h6) {
+    /* 비주얼 속성 */
+    opacity: 0.4;
+
+    /* 텍스트 속성 */
     font-size: 17px;
     font-weight: 600;
-    opacity: 0.4;
 }
 
 .open-chats__members img {
+    /* 박스 모델 속성 */
     width: 24px;
     height: 24px;
-    border-radius: 12px;
     margin-right: 6px;
+
+    /* 비주얼 속성 */
+    border-radius: 12px;
 }
 
 .open-chats__members h6 {
+    /* 비주얼 속성 */
     color: hotpink;
-    font-weight: 600;
     opacity: 0.8;
+
+    /* 텍스트 속성 */
+    font-weight: 600;
 }
 
 .open-chats__article {
+    /* 레이아웃 속성 */
     display: flex;
     align-items: center;
 }
 
 .open-chats__column {
+    /* 레이아웃 속성 */
     position: relative;
 }
 
 .open-chats__column > img {
+    /* 박스 모델 속성 */
     width: 120px;
     height: 120px;
+
+    /* 비주얼 속성 */
     border-radius: 7px;
 }
 
 .open-chats__heart-count {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: center;
     position: absolute;
-    width: 52px;
-    border-radius: 12px;
-    padding: 5px 8px;
-    background-color: rgba(0, 0, 0, 0.5);
-    font-size: 14px;
-    font-weight: 300;
-    opacity: 0.9;
-    color: white;
     bottom: 10px;
     left: 46px;
+
+    /* 박스 모델 속성 */
+    width: 52px;
+    padding: 5px 8px;
+
+    /* 비주얼 속성 */
+    border-radius: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0.9;
+
+    /* 텍스트 속성 */
+    font-size: 14px;
+    font-weight: 300; 
 }

@@ -1,31 +1,45 @@
 #more-screen {
+    /* 박스 모델 속성 */
     height: 500vh;
 }
 
 .suggestion {
+    /* 레이아웃 속성 */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+
+    /* 박스 모델 속성 */
     border-top: 1.3px solid rgba(0, 0, 0, 0.1); 
 }
 
 .suggestion__title {
+    /* 박스 모델 속성 */
+    padding-top: 30px;
+
+    /* 비주얼 속성 */
+    opacity: 0.9;
+
+    /* 텍스트 속성 */
     font-size: 18px;
     font-weight: 600;
-    padding-top: 30px;
-    opacity: 0.9;
 }
 
 .suggestion__row {
+    /* 레이아웃 속성 */
     display: flex;
+
+    /* 박스 모델 속성 */
     padding-top: 20px;
 }
 
 .suggestion__link {
+    /* 박스 모델 속성 */
     width: 25%;
 } 
 
 .suggestion__btn {
+    /* 레이아웃 속성 */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,12 +47,16 @@
 }
 
 .suggestion__btn img {
+    /* 박스 모델 속성 */
     width: 90px;
     height: 90px;
     padding-bottom: 5px;
 }
 
 .suggestion__btn h6 {
-    font-weight: 600;
+    /* 비주얼 속성 */
     opacity: 0.6;
+
+    /* 텍스트 속성 */
+    font-weight: 600;
 }
