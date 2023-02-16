@@ -75,7 +75,7 @@
     cursor: pointer;
 }
 
-/* .splash-screen {
+.splash-screen {
     background-color: var(--kakao-yellow);
     width: 100vw;
     height: 100vh;
@@ -85,7 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: SplashScreen 2s ease-in-out forwards;
+    animation: SplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 1s;
 }
 
 @keyframes SplashScreen {
@@ -94,5 +95,6 @@
     }
     to {
         opacity: 0;
+        visibility: hidden;
     }
-} */
+}

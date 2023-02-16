@@ -163,3 +163,16 @@
     font-size: 14px;
     font-weight: 300; 
 }
+
+.open-chats__heart-count:hover > i{
+    animation: ClickHeart 1s ease-in-out forwards; 
+}
+
+@keyframes ClickHeart {
+    from {
+        color: white;
+    }
+    to {
+        color: red;
+    }
+}

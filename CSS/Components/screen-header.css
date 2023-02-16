@@ -63,3 +63,16 @@
     /* 기타 속성 */
     transform: scale(0.87);
 }
+
+.screen-header__cog-rotate:hover {
+    animation: RotateCog 2.5s linear infinite;
+}
+
+@keyframes RotateCog {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+} 

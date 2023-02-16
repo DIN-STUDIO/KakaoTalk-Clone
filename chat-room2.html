@@ -1,1 +1,82 @@
-Here is chat-room2.html
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>박주형이</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body id="chat-screen">
+    <div class="status-bar"> 
+        <div class="status-bar__col">
+            <span class="status-bar__phone">iPhone</span>
+            <i class="fa-solid fa-wifi fa-sm"></i>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__time">8:12 PM</span>
+        </div>
+        <div class="status-bar__col">
+            <span class="status-bar__battery">100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i>
+            <i class="fa-solid fa-bolt fa-sm"></i>
+        </div>
+    </div>
+
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="chat.html">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a> 
+        </div>
+        <div class="alt-header__column">
+            <h2 class="alt-header__title">박주형이</h2>
+        </div>
+        <div class="alt-header__column">
+            <a href="#">
+                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </a>    
+        </div>
+    </header>
+
+    <main class="chat-main">
+        <div class="chat-main__timestamp">Friday, May 16, 2022</div> 
+        <div class="chat-main__interlocutor chat-main__interlocutor__own">
+            <div class="chat-main__interlocutor-profile">      
+                <div class="chat-main__text">
+                    <div class="chat-main__interlocutor-bubble">저녁</div>
+                    <div class="chat-main__message-time">8:02 PM</div>
+                </div>         
+            </div>
+        </div>
+        <div class="chat-main__interlocutor">
+            <img src="Img/밥줘영이.jpeg">
+            <div class="chat-main__interlocutor-profile">
+                <div class="chat-main__interlocutor-name">박주형이</div>
+                <div class="chat-main__text">
+                    <div class="chat-main__interlocutor-bubble">ㄱㄱ</div>
+                    <div class="chat-main__message-time">8:03 PM</div>
+                </div>         
+            </div>
+        </div>
+    </main>
+
+    <form class="message-form">
+        <div class="message-form__column">
+            <i class="fa-regular fa-square-plus fa-2x"></i>
+        </div>
+        <div class="message-form__column">
+            <input type="text"/>
+            <i class="fa-regular fa-face-smile-wink fa-lg message-form__smile-emoji"></i>
+            <button class="message-form__sending-btn">
+                <i class="fa-solid fa-arrow-up fa-xl message-form__arrow-emoji"></i>
+            </button> 
+        </div>
+    </form>
+
+    <script src="https://kit.fontawesome.com/6c450f5942.js" crossorigin="anonymous"></script>
+</body>
+</html>

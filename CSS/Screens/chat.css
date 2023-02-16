@@ -254,9 +254,6 @@
 
 .message-form__column:last-child { /*두번째 column*/
     position: relative;
-    /* box-sizing: border-box; */
-    /* display: flex; */
-    /* justify-content: flex-end; */
     width: 88%;
 }
 
@@ -272,7 +269,7 @@
     position: absolute;
     width: 100%;
     height: 45px;
-    top: -14.5px;
+    top: -22px;
     padding: 5px 10px;
     box-sizing: border-box;
     border-radius: 20px;
@@ -287,9 +284,9 @@
 }
 
 .message-form__smile-emoji {
-    position: relative;
+    position:absolute;
     top: 0px;
-    left: 350px;
+    right: 60px;
     opacity: 0.35;
     transform: scale(1.5);
 }
@@ -300,7 +297,7 @@
     width: 37px;
     height: 37px;
     
-    top: -10.5px;
+    top: -18px;
     right: 5px;
     border: 1px solid #e8d500;
     background-color: var(--kakao-yellow);
@@ -311,11 +308,3 @@
     position: absolute;
     right: 6px;
 }
-
-.message-form__column > input::placeholder {
-    /* 비주얼 속성 */
-    color: black;
-    font-size: 20px;
-    opacity: 0.7;
-
-}   
