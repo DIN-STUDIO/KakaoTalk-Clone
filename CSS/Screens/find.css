@@ -6,15 +6,7 @@
 
      /* 비주얼 속성 */
     background-color: white;
-    
-    /* z-index: 1; */
-    /* padding: 10px var(--component-padding) 20px; */
 }
-
-/* #find-screen > .status-bar {
-    position: fixed;
-    z-index: 2;
-} */
 
 .recommended-friends {
     /* display: flex; */

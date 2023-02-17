@@ -165,6 +165,7 @@
 }
 
 .open-chats__heart-count:hover > i{
+    /* 기타 속성 */
     animation: ClickHeart 1s ease-in-out forwards; 
 }
 

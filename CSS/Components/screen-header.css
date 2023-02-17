@@ -65,6 +65,7 @@
 }
 
 .screen-header__cog-rotate:hover {
+    /* 기타 속성 */
     animation: RotateCog 2.5s linear infinite;
 }
 
