@@ -1,0 +1,33 @@
+@media (min-width: 800px) {  /* 스크린 가로 길이가 800px보다 작으면 실행 */
+    .screen-size {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+
+        background-color: var(--kakao-yellow);
+        z-index: 99;
+
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    body {
+        margin: 0;
+        height: 100%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 800px){
+    .screen-size {
+        display: none;
+    }
+}
+
+
+

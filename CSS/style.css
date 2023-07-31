@@ -10,6 +10,7 @@
 @import "Components/notify-number.css";
 @import "Components/icon-row.css";
 @import "Components/alt-screen-header.css";
+@import "Components/screen-size.css";
 
 /* Screens */
 @import "Screens/header-welcome.css";
